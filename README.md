@@ -1,3 +1,3 @@
-# Schedule Changes Parser
+# Schedule Replacements Parser
 
 Парсер замен занятий для сайта https://kmpo.eljur.ru/ с интеграцией Telegram-бот.
