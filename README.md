@@ -1,6 +1,10 @@
 # Schedule Replacements Parser
 
-Парсер замен занятий для сайта https://kmpo.eljur.ru/ с интеграцией Telegram-бот. Парсер отслеживает только замены 1 группы. Для настройки нужно изменить функцию `extract_text_sync` в файле `/parser/pdf_parser/pdf_data_extractor.py` и добавить название группы в дампе `/mysql/central_db/central_api_db_dump.sql` в таблицу `college_group`.
+Парсер замен занятий для сайта https://kmpo.eljur.ru/ с интеграцией Telegram-бот.
+
+## Настройка
+
+Парсер отслеживает только замены 1 группы. Для настройки нужно изменить функцию `extract_text_sync` в файле `/parser/pdf_parser/pdf_data_extractor.py` и добавить название группы в дампе `/mysql/central_db/central_api_db_dump.sql` в таблицу `college_group`.
 
 ## Запуск
 
